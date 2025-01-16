@@ -17,8 +17,8 @@ import pyttsx3
 
 # Hardcoded inputs for YOLO directory, input video, and output video
 YOLO_DIR = "yolo-coco"  # Replace with the path to your YOLO directory
-INPUT_VIDEO = "output_video/he2.mp4"  # Replace with your input video file path
-OUTPUT_VIDEO = "output_video/output_video.mp4"  # Replace with your desired output video path
+INPUT_VIDEO = "data/input_video.mp4"  # Replace with your input video file path
+OUTPUT_VIDEO = "data/output_video.mp4"  # Replace with your desired output video path
 CONFIDENCE_THRESHOLD = 0.5
 NMS_THRESHOLD = 0.3
 
